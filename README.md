@@ -1,21 +1,37 @@
 # kicad_microbit_connector
 
-## A KiCad component library and footprint library for micro:bit edge connector
+## A KiCad component library and footprint library for a micro:bit edge-connector socket.
 
 This is a schematic & PCB-layout library, for use with [KiCad](http://kicad-pcb.org/), an open source PCB design/layout tool.
 
-The [micro:bit](http://microbit.org/) has an 80 pin edge connector (not all pins are active), at 0.05" / 1.27mm pitch.  Sockets for the edge conector are easy to obtain (right-angle) and harder to obtain (straight).
+The [micro:bit](http://microbit.org/) has an 80 pin edge connector (not all pins are active), at 0.05" / 1.27mm pitch.  Sockets for the edge connector are easy to obtain (right-angle) and harder to obtain (straight).
 
 This library was written for the through-hole, straight version of the socket.  It has had limited testing, but is in successful use for PCB manufacture.
 
-#### Contents
+### Contents:
 
 - [lib_microbit_connector](./lib_microbit_connector) - schematic
 - [lib_microbit_connector.pretty](./lib_microbit_connector.pretty) - footprint
 
+### How to use:
 
-#### TODO
+Please read the KiCad documentation first!
 
-- a right-angle version of the footprint (PR welcome)
+Schematic editor:
+
+- Open dialog: Preferences -> Component Libraries
+- "Add", browse to ```lib_microbit_connector.lib```
+
+CvPcb (association of components->footprints)
+
+- Open dialog: Preferences -> Footprint Libraries
+- "Append with Wizard", browse to the directory ```lib_microbit_connector.pretty```
+
+
+### TODO:
+
+- a right-angle version of the footprint
 - 3D-model visual to go with the footprint
+
+PRs welcome!
 
