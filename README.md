@@ -11,7 +11,7 @@ This library was written for the through-hole, straight version of the socket.  
 ### Contents:
 
 - [lib_microbit_connector](./lib_microbit_connector) - schematic
-- [lib_microbit_connector.pretty](./lib_microbit_connector.pretty) - footprint
+- [Connectors_4UCON.pretty](./Connectors_4UCON.pretty) - footprint
 
 ### How to use:
 
@@ -25,13 +25,12 @@ Schematic editor:
 CvPcb (association of components->footprints)
 
 - Open dialog: Preferences -> Footprint Libraries
-- "Append with Wizard", browse to the directory ```lib_microbit_connector.pretty```
+- "Append with Wizard", browse to the directory ```Connectors_4UCON.pretty```
 
 
 ### TODO:
 
 - a right-angle version of the footprint
-- 3D-model visual to go with the footprint
+- 3D-model visual to go with the footprint - in progress
 
 PRs welcome!
-
