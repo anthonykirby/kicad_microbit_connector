@@ -30,8 +30,6 @@ CvPcb (association of components->footprints)
 - "Append with Wizard", browse to the directory ```Connectors_4UCON.pretty```
 
 
-### TODO:
+### Kudos:
 
-- a right-angle version of the footprint and 3D model
-
-PRs welcome!
+- many thanks to [hackscribble/Ray Benitez](http://hackscribble.com)
