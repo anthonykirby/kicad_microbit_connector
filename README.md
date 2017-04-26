@@ -12,6 +12,8 @@ This library was written for the through-hole, straight version of the socket.  
 
 - [lib_microbit_connector](./lib_microbit_connector) - schematic
 - [Connectors_4UCON.pretty](./Connectors_4UCON.pretty) - footprint
+- [Connectors_4UCON.3dshapes](./Connectors_4UCON.3dshapes) - 3D model
+
 
 ### How to use:
 
@@ -30,7 +32,6 @@ CvPcb (association of components->footprints)
 
 ### TODO:
 
-- a right-angle version of the footprint
-- 3D-model visual to go with the footprint - in progress
+- a right-angle version of the footprint and 3D model
 
 PRs welcome!
