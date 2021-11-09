@@ -2,7 +2,7 @@
 
 ## A KiCad component library and footprint library for a micro:bit edge-connector socket.
 
-This is a schematic & PCB-layout library, for use with [KiCad](http://kicad-pcb.org/), an open source PCB design/layout tool.
+This is a schematic & PCB-layout library, for use with [KiCad](http://kicad.org/), an open source PCB design/layout tool.
 
 The [micro:bit](http://microbit.org/) has an 80 pin edge connector (not all pins are active), at 0.05" / 1.27mm pitch.  Sockets for the edge connector are easy to obtain (right-angle) and harder to obtain (straight).
 
